@@ -21,6 +21,8 @@ public class Alert {
 		driver.switchTo().alert().dismiss();
 		System.out.println("this is written for git");
 		System.out.println("this is written for git");
+		System.out.println("this is written for git last comment");
+		
 	}
 
 }
