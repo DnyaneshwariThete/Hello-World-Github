@@ -19,6 +19,8 @@ public class Alert {
 		driver.findElement(By.id("confirmbtn")).click();
 		System.out.println(driver.switchTo().alert().getText());
 		driver.switchTo().alert().dismiss();
+		System.out.println("this is written for git");
+		System.out.println("this is written for git");
 	}
 
 }
