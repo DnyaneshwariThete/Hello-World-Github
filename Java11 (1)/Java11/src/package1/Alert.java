@@ -23,7 +23,7 @@ public class Alert {
 		System.out.println("this is written for git");
 		System.out.println("this is written for git last comment");
 		System.out.println("in develop branch");
-		System.out.println("in master branch");
+		System.out.println("in mastergit p branch");
 	}
 
 }
