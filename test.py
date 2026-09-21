@@ -1,11 +1,12 @@
 def reverse_string(text):
-    reversed_text = ""
+    reversed_text = []
 
-    for i in range(len(text)):
-        reversed_text += text[i]
+    for i in range(len(text) - 1, -1, -1):
+        reversed_text.append(text[i])
 
-    return reversed_text
+    return ''.join(reversed_text)
 
 
-name = "Playwright"
-print("Reversed:", reverse_string(name))
+if __name__ == "__main__":
+    name = "Playwright"
+    print("Reversed:", reverse_string(name))
